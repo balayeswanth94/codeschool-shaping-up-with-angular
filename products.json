@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Pentagonal Gem",
+    "description": "Very few gems have hidden qualities... Pentagonal Gem is one of those gems.",
+    "price": 91.0,
+    "img": [
+        {
+          "full": "http://courseware.codeschool.com.s3.amazonaws.com/shaping-up-with-angular-js/images/gem-02.gif"
+        }
+      ],
+    "canPurchase": true,
+      "soldOut": false,
+      "reviews": [
+        {
+          "stars": 5,
+          "body": "I love this gem!",
+          "author": "user@codeschool.com"
+        },
+        {
+          "stars": 1,
+          "body": "This sucks!",
+          "author": "user@codeschool.com"
+        }
+      ]
+  },
+  {
+    "name": "Bloodstone",
+    "description": "Origin of the Bloodstone is unknown, hence its low value. It has a very high shine and 12 sides, however.",
+    "price": 22.90,
+    "img": [
+        {
+          "full": "http://courseware.codeschool.com.s3.amazonaws.com/shaping-up-with-angular-js/images/gem-02.gif"
+        }
+      ],
+      "canPurchase": true,
+      "soldOut": false,
+      "reviews": [
+        {
+          "stars": 5,
+          "body": "I love this gem!",
+          "author": "user@codeschool.com"
+        },
+        {
+          "stars": 1,
+          "body": "This sucks!",
+          "author": "user@codeschool.com"
+        }
+      ]
+  },
+  {
+    "name": "Zircon",
+    "description": "Zircon is our most coveted and sought after gem. You will pay much to be the proud owner of this gorgeous and high shine gem.",
+    "price": 1100,
+    "img": [
+        {
+          "full": "http://courseware.codeschool.com.s3.amazonaws.com/shaping-up-with-angular-js/images/gem-02.gif"
+        }
+      ],
+      "canPurchase": true,
+      "soldOut": false,
+      "reviews": [ ]
+  }
+]

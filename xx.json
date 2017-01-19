@@ -1,0 +1,28 @@
+[ 
+	{ 
+	name: 'Dodecahedron',
+	price: 2,
+	description: 'Yada yada yada',
+	canPurchase: true,
+	soldOut: false,
+	img:[
+	{
+		full:"pent.jpg",
+		thumb:"pent.jpg",	
+	}],
+	reviews:[],
+	},	
+	{ 
+	name: 'Pentagonal Gem',
+	price: 5.95,
+	description: 'Yadae yadae yadae',
+	canPurchase: true,
+	soldOut: false,
+	img:[
+	{
+		full:"pent.jpg",
+		thumb:"pent.jpg",	
+	},],
+	reviews:[],
+	}
+]

@@ -1,0 +1,52 @@
+<html ng-app="store">
+<head>
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+<body ng-controller="StoreController as store" align="center">
+<h1>Flatlander Crafted Gems</h1>
+<h2>-An Angular Store-</h2>
+<script type="text/javascript" src="angular.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+
+<ul class ="list-group" >
+<li ng-repeat="product in store.products" class="list-group-item">
+<h3>
+{{product.name}}
+<em class="pull-right"> {{product.price | currency}}</em>
+<img ng-src="{{product.img[0].full}}"/>
+</h3>
+
+<section ng-controller = "PanelController as panel">
+	<ul class="nav nav-pills">
+	<li ng-class="{active:panel.isSelected(1)}">
+	<a href ng-click="panel.selectTab(1)">
+	Description</a>
+	</li>
+	<li ng-class="{active:panel.isSelected(2)}">
+	<a href ng-click="panel.selectTab(2)">
+	Specifications</a>
+	</li>
+	<li ng-class="{active:panel.isSelected(3)}">
+	<a href ng-click="panel.selectTab(3)">
+	Reviews</a>
+	</li>
+	</ul>
+
+<div class="panel" ng-show="panel.isSelected(1)">
+<h4>Description</h4>
+<p>{{product.description}}</p>
+</div>
+<div class="panel"  ng-show="panel.isSelected(2)">
+<h4>Specifications</h4>
+<p>None Yet</p>
+</div>
+<div class="panel" ng-show="panel.isSelected(3)">
+<h4>Reviews</h4>
+<p>None Yet</p>
+</div>
+</section>
+</li>
+</ul>
+
+</body>
+</html>

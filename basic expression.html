@@ -1,0 +1,16 @@
+<html ng-app="store">
+<head>
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css"/>
+</head>
+<body>
+<script type="text/javascript" src="angular.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+<p>{{1+2}}</p>
+ <div ng-include="product-title.html">
+ <h3 >
+{{product.name}}
+<em class="pull-right"> {{product.price | currency}}
+</em>
+ </h3>
+</body>
+</html>
